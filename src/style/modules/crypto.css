@@ -1,0 +1,16 @@
+.row {
+    min-width: 20rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.row p {
+    font-size: 1.4rem;
+}
+
+.row p:nth-last-of-type(1) {
+    color: oklch(44.4% 0.177 26.899);
+    margin-left: auto;
+    font-weight: bold;
+}

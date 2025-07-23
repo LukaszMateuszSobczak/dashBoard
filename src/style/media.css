@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+    .text-layer {
+        font-size: 1.6rem;
+    }
+
+    h1 {
+        font-size: 6.2rem;
+    }
+
+    .row {
+        min-width: 22.5rem;
+    }
+
+    .row p {
+        font-size: 1.6rem;
+    }
+
+
+    .to-do-header {
+        font-size: 2.8rem;
+    }
+   
+}
+
+@media (min-width: 1200px) {
+
+    h1 {
+        font-size: 7.2rem;
+    }
+
+    .row {
+        min-width: 25rem;
+    }
+
+    .row p {
+        font-size: 1.8rem;
+    }
+
+    .to-do-header {
+        font-size: 3rem;
+    }
+}

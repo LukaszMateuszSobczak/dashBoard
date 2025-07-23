@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>Dashboard</title>
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com" />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+            rel="stylesheet" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+        <link
+            rel="stylesheet"
+            href="./src/style/main.css" />
+    </head>
+    <body>
+        <div id="loader">
+            <div class="spinner"></div>
+        </div>
+        <div
+            class="container"
+            id="bgcImage">
+            <div class="text-layer">
+                <div class="top">
+                    <div
+                        class="card padding-big"
+                        id="crypto"></div>
+                    <p>weather</p>
+                </div>
+                <div class="middle">
+                    <div
+                        id="toDoContainer"
+                        class="to-do-container padding-big">
+                        
+                        <div class="to-do-header">
+                            <i class="fa-solid fa-list"></i>
+                            <h3>To do list</h3>
+                        </div>
+                        <form
+                            id="inputTaskForm"
+                            class="input-container">
+                            <label for="inputTask">New task </label>
+                            <div class="row">
+                                <input
+                                    id="inputTask"
+                                    type="text"
+                                    placeholder="Add new task" />
+                                <button
+                                    id="addTaskBtn"
+                                    type="submit">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <ul
+                            id="toDoList"
+                            class="to-do-list">
+                            
+                        </ul>
+
+                        
+                    </div>
+
+                    <i
+                        id="toDoListShowBtn"
+                        class="chevron-right-icon fa-solid fa-chevron-right"></i>
+
+                    <h1
+                        id="time"
+                        class="card padding-small text-shadow">
+                        time
+                    </h1>
+                </div>
+                <div class="bottom">
+                    <p
+                        id="imageAuthor"
+                        class="author">
+                        <a
+                            href="http://"
+                            target="_blank"
+                            rel="noopener noreferrer"></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="img-shadow"></div>
+        </div>
+
+        <script
+            type="module"
+            src="./src/js/main.js"></script>
+    </body>
+</html>

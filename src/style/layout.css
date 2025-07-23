@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    animation: fade-in 1.4s ease-in-out;
+}
+
+.text-layer {
+    font-size: 1.4rem;
+    padding: 1em 2em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle {
+
+    display: flex;
+    align-items: center;
+}
