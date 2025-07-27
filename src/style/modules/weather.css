@@ -1,29 +1,22 @@
 .weather {
     position: relative;
     display: flex;
-    gap: 3rem;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     gap: 1rem;
 }
 
-.column:first-of-type p {
-    align-self: center;
-}
-
-.column:last-of-type p {
-    align-self: center;
-}
-
-.city {
+/* .city {
     position: absolute;
     top: 1em;
-}
+} */
 
 .text-large {
     font-size: 3rem;

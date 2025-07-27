@@ -77,7 +77,7 @@
 
 .horizontal-line {
     align-self: stretch;
-    width: 1px;
+    height: 1px;
     background-color: oklch(37.4% 0.01 67.558 /0.95);
 }
 

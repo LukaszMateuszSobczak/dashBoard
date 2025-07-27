@@ -32,6 +32,36 @@
     .to-do-header {
         font-size: 2.8rem;
     }
+
+    .weather {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        align-items: flex-end;
+    }
+    .city {
+        position: absolute;
+        top: 1em;
+    }
+
+    .column {
+        align-items: start;
+    }
+
+    .column:first-of-type p {
+        align-self: center;
+    }
+
+    .column:last-of-type p {
+        align-self: center;
+    }
+
+    .horizontal-line {
+        align-self: stretch;
+        width: 1px;
+        background-color: oklch(37.4% 0.01 67.558 /0.95);
+    }
 }
 
 @media (min-width: 1200px) {
