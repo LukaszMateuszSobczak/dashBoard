@@ -38,7 +38,7 @@ inputTaskForm.addEventListener('submit', (event) => {
 
     toDoListArray.push({ text, id });
     saveLocalStorage(toDoListArray);
-    createNewTask(text, id);
+    createNewTask([{ text, id }]);
 
     inputTask.value = '';
 });
@@ -47,35 +47,31 @@ const saveLocalStorage = (array) => {
     localStorage.setItem('todo', JSON.stringify(array));
 };
 
-const renderTodoList = (array) => {
-    toDoListArray.forEach((ele) => {
-        createNewTask(ele.text, ele.id);
-    });
-};
-
-const createNewTask = (text, id) => {
+const createNewTask = (array) => {
     const fragment = document.createDocumentFragment();
 
-    //li element
-    const liEle = document.createElement('li');
-    liEle.className = 'to-do-element';
-    liEle.setAttribute('data-id', id);
+    array.forEach((ele) => {
+        //li element
+        const liEle = document.createElement('li');
+        liEle.className = 'to-do-element';
+        liEle.setAttribute('data-id', ele.id);
 
-    // label with checkbox
-    const labelEle = document.createElement('label');
-    labelEle.className = 'task-element';
-    labelEle.textContent = text;
-    const checkboxEle = document.createElement('input');
-    checkboxEle.setAttribute('type', 'checkbox');
-    labelEle.append(checkboxEle);
+        // label with checkbox
+        const labelEle = document.createElement('label');
+        labelEle.className = 'task-element';
+        labelEle.textContent = ele.text;
+        const checkboxEle = document.createElement('input');
+        checkboxEle.setAttribute('type', 'checkbox');
+        labelEle.append(checkboxEle);
 
-    liEle.append(labelEle);
+        liEle.append(labelEle);
 
-    const verticalLineEle = document.createElement('div');
-    verticalLineEle.className = 'vertical-line';
-    liEle.append(verticalLineEle);
+        const verticalLineEle = document.createElement('div');
+        verticalLineEle.className = 'vertical-line';
+        liEle.append(verticalLineEle);
 
-    fragment.append(liEle);
+        fragment.append(liEle);
+    });
     toDoList.append(fragment);
 };
 
@@ -104,5 +100,5 @@ document.addEventListener('change', (event) => {
 
 if (localStorage.getItem('todo')) {
     toDoListArray = JSON.parse(localStorage.getItem('todo'));
-    renderTodoList(toDoListArray);
+    createNewTask(toDoListArray);
 }

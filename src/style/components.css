@@ -48,9 +48,9 @@
 }
 
 .chevron-right-icon {
-    padding: 100vh 0 100vh 0;
+    padding: 100dvh 0 100dvh 1%;
     position: absolute;
-    left: 1%;
+    left: 0;
     top: 50%;
     font-size: 2.4rem;
     transform: translate(0, -50%);
