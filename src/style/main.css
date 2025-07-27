@@ -8,6 +8,7 @@
 @import url('./modules/clock.css');
 @import url('./modules/crypto.css');
 @import url('./modules/toDoList.css');
+@import url("./modules/weather.css");
 /*media*/
 @import url('./media.css');
 

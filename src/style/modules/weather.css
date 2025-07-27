@@ -1,0 +1,35 @@
+.weather {
+    position: relative;
+    display: flex;
+    gap: 3rem;
+    align-items: flex-end;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.column:first-of-type p {
+    align-self: center;
+}
+
+.column:last-of-type p {
+    align-self: center;
+}
+
+.city {
+    position: absolute;
+    top: 1em;
+}
+
+.text-large {
+    font-size: 3rem;
+}
+
+.text-small {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
