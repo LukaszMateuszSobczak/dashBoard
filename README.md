@@ -4,7 +4,7 @@
 
 > ⚠️ This project is a work in progress. Some features are not yet implemented, and full responsiveness is still being developed.
 
-🔗 **Live Demo**: [friendly-pegasus-322d99.netlify.app](https://lukaszmateuszsobczak.github.io/dashBoard/)
+🔗 **Live Demo**: [dashBoard](https://lukaszmateuszsobczak.github.io/dashBoard/)
 
 ---
 
