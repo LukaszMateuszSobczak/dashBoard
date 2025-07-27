@@ -26,3 +26,8 @@
     font-size: 1.6rem;
     text-transform: capitalize;
 }
+
+.weather img {
+    height: 50px;
+    width: 50px;
+}
