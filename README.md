@@ -4,7 +4,7 @@
 
 > ⚠️ This project is a work in progress. Some features are not yet implemented, and full responsiveness is still being developed.
 
-🔗 **Live Demo**: [friendly-pegasus-322d99.netlify.app](https://friendly-pegasus-322d99.netlify.app/)
+🔗 **Live Demo**: [friendly-pegasus-322d99.netlify.app](https://frolicking-tapioca-2db62f.netlify.app/)
 
 ---
 
