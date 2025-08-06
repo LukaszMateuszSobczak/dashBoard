@@ -2,7 +2,7 @@
 
 **Mementum Dashboard** is a minimalist and customizable new tab dashboard designed to enhance your focus and productivity. Inspired by projects like [Momentum](https://momentumdash.com/) and [Scrimba](https://scrimba.com/home) course, it displays the current time, date, and includes personal widgets such as a to-do list, cryptocurrency price and weather updates. The entire codebase was written by me from scratch, without copying from external sources.
 
-> ⚠️ This project is a work in progress. Some features are not yet implemented, and full responsiveness is still being developed.
+> ⚠️ This project is a work in progress.
 
 🔗 **Live Demo**: [friendly-pegasus-322d99.netlify.app](https://frolicking-tapioca-2db62f.netlify.app/)
 
@@ -22,8 +22,8 @@
     -   Task persistence using `localStorage`
     -   Unique task IDs generated via `uuidv4`
     -   Smooth checkbox logic and DOM updates
--    🌡️ Weather card component. It fetches real-time weather data from the [OpenWeather API](https://openweathermap.org/) and displays it in a clean, user-friendly layout
--    📲 Fully responsive and adapts to different screen sizes, including mobile phones, tablets, and desktops.
+-   🌡️ Weather card component. It fetches real-time weather data from the [OpenWeather API](https://openweathermap.org/) and displays it in a clean, user-friendly layout
+-   📲 Fully responsive and adapts to different screen sizes, including mobile phones, tablets, and desktops.
 
 ### 🚧 In Progress / Planned
 
